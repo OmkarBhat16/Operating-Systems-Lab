@@ -1,0 +1,97 @@
+pwd :
+pwd 
+~/Documents/220911264$ pwd
+/home/STUDENT/Documents/220911264
+
+
+mkdir : 
+mkdir Lab1
+
+
+ls :
+ls 
+Lab1
+
+
+cd :
+cd Lab1
+pwd
+/home/STUDENT/Documents/220911264/Lab1
+
+
+touch :
+touch file1.txt
+ls 
+file1.txt
+
+
+file :
+file file1.txt
+file1.txt: empty
+
+
+cat : 
+cat file1.txt
+cat > file.txt
+{Lorem Ipsum}
+
+
+head :
+head file.txt
+
+head -n 2 file1.txt
+
+
+tail :
+tail file.txt
+
+tail -n 2 file1 .txt
+
+
+cp :
+cp file1.txt file1-Copy.txt
+ls
+file1-Copy.txt file.txt
+
+
+mv :
+mv file1-Copy.txt ../
+cd ..
+ls
+file1-Copy.txt  Lab1
+
+
+rm :
+rm file1-Copy.txt
+ls
+Lab1
+
+rmdir : 
+mkdir Test
+ls
+Lab1 Test
+rmdir Test
+ls
+Lab 1
+
+
+which :
+which python3
+/usr/bin/python3
+
+
+whereis :
+whereis file1.txt
+file1.txt:
+
+locate :
+
+
+find :
+find file*.*
+file1.txt
+file2.txt
+file3.txt
+
+
+	

@@ -1,0 +1,1 @@
+here is a new example file with ex: neither at the beginning of the line nor after a period.ex: aint there

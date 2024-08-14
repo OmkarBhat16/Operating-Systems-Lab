@@ -1,0 +1,5 @@
+abcd ex:
+ex:
+
+this is an example ex:
+this is an example after a period .ex:

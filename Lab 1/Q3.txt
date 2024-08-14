@@ -1,0 +1,19 @@
+ls
+abcd.txt  eon.txt  file1.txt  file2.txt  file3.txt  Q1.txt  Q2.txt
+touch Q3.txt
+ls
+abcd.txt  eon.txt  file1.txt  file2.txt  file3.txt  Q1.txt  Q2.txt  Q3.txt
+touch pqrs.abcd
+
+ls *.txt
+abcd.txt  eon.txt  file1.txt  file2.txt  file3.txt  Q1.txt  Q2.txt  Q3.txt
+
+ls *[0-9]*.txt
+file1.txt  file2.txt  file3.txt  Q1.txt  Q2.txt  Q3.txt
+
+ls ????*.txt
+abcd.txt  file1.txt  file2.txt  file3.txt
+
+ls [!aeiou]*.*
+file1.txt  file2.txt  file3.txt  pqrs.abcd  Q1.txt  Q2.txt  Q3.txt
+

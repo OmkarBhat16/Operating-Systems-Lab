@@ -1,0 +1,15 @@
+apple
+banana
+canterloupe
+watermelon unwatermelon ununobitiumwatermelon
+Write grep commands to do the following activities:
+• To select the lines from a file that have exactly two characters.
+ab
+cd
+lorem
+ipsum
+dolor
+sit
+amet
+ABCD
+abcd.

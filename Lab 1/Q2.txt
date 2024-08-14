@@ -1,0 +1,21 @@
+cat : 
+touch Q2.txt
+cat >> Q2.txt
+{content}
+
+
+head :
+head -n 1 Q2.txt
+cat :
+
+head -c 2 Q2.txt
+ca
+
+
+tail :
+tail -n 2 Q2.txt
+head -c 2 Q2.txt
+ca
+
+tail -c 2 Q2.txt
+ca

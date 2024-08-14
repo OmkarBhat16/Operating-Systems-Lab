@@ -1,0 +1,7 @@
+1. grep -E '^.{2}$' Sort.txt
+
+2. grep -E '^[A-Z]' Sort.txt
+
+3. grep -E '\.$' Sort.txt
+
+4. 
